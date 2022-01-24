@@ -61,7 +61,7 @@ public class MusicConfigurationService {
 			
 		} catch (IOException e) {
 			e.printStackTrace();
-			return "error";
+			return "err";
 		}
 		
 		musicRepo.save(song);
